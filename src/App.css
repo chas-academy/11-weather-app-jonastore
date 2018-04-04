@@ -1,0 +1,214 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  height: 180px;
+}
+
+.App-logo:hover {
+  animation: App-logo-spin infinite .2s linear;
+  height: 180px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.App-header {
+  background-color: #0078a0; /*#007399*/
+  height: 165px;
+  padding: 20px;
+  color: white;
+  border-bottom: 4px solid #2c2f30;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#current {
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+}
+
+ul, li {
+  list-style: none;
+  text-align: left;
+}
+
+.currentContainer {
+  float: left;
+  color: white;
+  background-color: #343839;
+  width: 30%;
+  text-align: center;
+  padding: 1%;
+  border-right: 4px solid #2c2f30;
+  height: 100vh;
+  padding-top:0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.currentList > li {
+  margin: 5%;
+}
+
+.fiveDayContainer {
+  color: white;
+  background-color: #343839;
+  float: left;
+  text-align: center;
+  border-left: 4px solid #2c2f30;
+}
+
+.fiveDaySelect {
+  width: 200px;
+  height: 45px;
+  border-top: none;
+}
+
+select {
+  background-color: #343839;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 50px;
+  border: solid 2px #2c2f30;
+}
+
+select:focus {
+  outline:0;
+}
+
+option {
+  border: 1px solid white;
+}
+
+a {
+  color: white;
+}
+
+.threeHourContainer {
+  color: white;
+  background-color: #343839;
+  float: left;
+  width: 25%;
+  padding: 3.4%;
+  padding-top: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.threeHourTrigger {
+  border: 2px solid #2c2f30;
+  border-top: none;
+  text-align: center;
+  padding: 4%;
+  margin-top: 0;
+}
+
+.threeHourContent {
+   display: none;
+    position: absolute;
+    background-color: #343839;
+    width: 255px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    padding: 12px 16px;
+}
+
+.threeHourContainer:hover .threeHourContent{
+    display: block;
+}
+
+.threeHourTemp {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.time {
+  padding-bottom: 10px;
+}
+
+.pThreeHours{
+  margin: 5%;
+}
+
+.pThreeHours:hover{
+  background: #2c2f30;
+}
+
+.yearSelect {
+  border-left: none;
+}
+
+.radar {
+  float: left;
+}
+
+.radarContainer {
+  float: left;
+}
+
+.radarImage {
+    position: absolute;
+  /*left: 814px;
+  top: 320px;*/
+  width: 160px;
+  z-index: 100;
+}
+.mapImage {
+    position: absolute;
+  /*left: 814px;
+  top: 320px;*/
+  width: 150px;
+  z-index: 1;
+}
+
+.btnLeft {
+      color: white;
+      background-color: #343839;
+      border: 2px solid #2c2f30;
+      border-top: none;
+      padding: 3%;
+}
+
+.btnRight {
+      color: white;
+      background-color: #343839;
+      border: 2px solid #2c2f30;
+      border-left: none;
+      border-top: none;
+      padding: 3%;
+      margin-top: 0;
+}
+
+button:focus {
+  outline:0;
+}
+
+.googleMap {
+  height: 100%;
+} 
+
+.place{  
+  width: 40px;
+  padding: 20px;
+  border: 1px solid blue;
+  background: red;
+  color: yellow; 
+}
